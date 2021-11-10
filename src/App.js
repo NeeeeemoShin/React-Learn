@@ -2,6 +2,7 @@
 // import { ChildArea } from "./ChildArea";
 import { CssModules } from "./components/CssModules";
 import { InlineStyle } from "./components/InlineStyle";
+import { StyledJsx } from "./components/StyledJsx";
 import "./styles.css";
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
       <ChildArea open={open} onClickClose={onClickClose} /> */}
       <InlineStyle />
       <CssModules />
+      <StyledJsx />
     </div>
   );
 }
