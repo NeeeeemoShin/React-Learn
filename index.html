@@ -11,7 +11,7 @@
 
 <body>
   <div id="app">
-    
+
     <h2>TODO List</h2>
     <form v-on:submit.prevent>
       <input type="text" v-model="newItem">
@@ -19,6 +19,7 @@
     </form>
     <ul>
       <li v-for="todo in todos">
+        <input type="checkbox">
         <span>{{ todo.item }}</span>
       </li>
     </ul>
